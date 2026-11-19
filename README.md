@@ -113,7 +113,7 @@ console.log(steamModule.giftGameToFriend("feldown","ruibena", "M0987O","HAPPY BI
 **Output**
 ```
 {
-    Gift Sent (p): feldown gifted Moving Out (S$5.80) to ruibena! Message: "HAPPY BIRTHDAYYYYY RUI^^"
+    Gift Sent (P1003): feldown gifted Moving Out (S$5.80) to ruibena! Message: "HAPPY BIRTHDAYYYYY RUI^^"
 }
 ```
 
