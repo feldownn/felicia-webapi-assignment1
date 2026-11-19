@@ -92,7 +92,7 @@ module.exports = {
         }
     },
 
-    // 2. Toggle a game on user's Steam wishlist (adds with priority rank, removes if already wishlisted))
+    // 2. Toggle a game on user's Steam wishlist (adds to end of list or custom rank, removes if already wishlisted)
     toggleSteamWishlist(userId, gameId, priorityRank) {
         let game = games.find(g => g.gameId == gameId);
         if (!game) {
